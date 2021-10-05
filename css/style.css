@@ -8,23 +8,15 @@
 
 }
 
-.container {
-    width: 100%;
-    position: relative;
-}
-
-
-
 /* *********** nav bar *********** */
 nav {
-    position:absolute;
-    right: 20px;
+    right: 30px;
     top: 30px;
     position: fixed;
     z-index: 1;
 
 }
-nav li {
+a {
     display: inline-block;
     padding: 15px;
     border-radius: 50px;
@@ -34,6 +26,11 @@ nav li {
     background-color: white;
     font-size: 20px;
     font-weight: bolder;
+    text-decoration: none;
+}
+nav li {
+    display: inline-block;
+    
 }
 
 /* *********** sezioni *********** */

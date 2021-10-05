@@ -13,12 +13,15 @@
     position: relative;
 }
 
+
+
 /* *********** nav bar *********** */
 nav {
     position:absolute;
     right: 20px;
     top: 30px;
     position: fixed;
+    z-index: 1;
 
 }
 nav li {
@@ -39,6 +42,7 @@ nav li {
 #sezione-1, #sezione-2, #sezione-3 {
     width: 100%;
     height: 100vh;
+    position: relative;
 }
 
 #sezione-1 {
@@ -52,4 +56,23 @@ nav li {
 
 #sezione-3 {
     background-color: yellow;
+}
+
+.content {
+    position: absolute;
+    bottom: 25%;
+    left: 25%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#sezione-1 h2, #sezione-2 h2 {
+    color: yellow;
+}
+
+#sezione-3 h2 {
+    color: green;
 }
